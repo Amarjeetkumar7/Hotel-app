@@ -62,6 +62,20 @@ Copy
 Edit
 MONGO_URI=your_mongodb_connection_string
 PORT=1300
+```
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](https://raw.githubusercontent.com/Amarjeetkumar7/Hotel-app/refs/heads/main/Screenshot%202025-04-04%20143747.png)
+
+### 🏨 Room Details
+![Room Details](https://raw.githubusercontent.com/Amarjeetkumar7/Hotel-app/refs/heads/main/Screenshot%202025-04-04%20143932.png)
+
+### 📅 Login Page
+![Booking](https://raw.githubusercontent.com/Amarjeetkumar7/Hotel-app/refs/heads/main/Screenshot%202025-04-04%20143810.png)
+
+### ✅ About Page
+![Confirmation](https://raw.githubusercontent.com/Amarjeetkumar7/Hotel-app/refs/heads/main/Screenshot%202025-04-04%20143835.png)
 
 
 
