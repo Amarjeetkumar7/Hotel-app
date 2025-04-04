@@ -63,6 +63,11 @@ Edit
 MONGO_URI=your_mongodb_connection_string
 PORT=1300
 ```
+## 🔗 Live Demo
+
+[Click here to view the live site]([https://your-demo-url.com](https://hotel-app-liard-ten.vercel.app/))
+
+
 ## 📸 Screenshots
 
 ### 🏠 Homepage
