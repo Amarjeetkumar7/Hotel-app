@@ -65,7 +65,7 @@ PORT=1300
 ```
 ## 🔗 Live Demo
 
-[Click here to view the live site]([https://your-demo-url.com](https://hotel-app-liard-ten.vercel.app/))
+[Click here to view the live site](https://hotel-app-liard-ten.vercel.app/)
 
 
 ## 📸 Screenshots
