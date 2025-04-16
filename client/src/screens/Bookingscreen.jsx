@@ -37,7 +37,7 @@ function Bookingscreen() {
     // debugger;
     // console.log('room id is', id)
     try {
-      const res = await axios.post(`http://localhost:1300/api/rooms/getroombyid/${id}`);
+      const res = await axios.post(`http://server-hotel-azure.vercel.app/api/rooms/getroombyid/${id}`);
 
       console.log('data is', res.data);
       setRoom(res.data)
@@ -62,7 +62,7 @@ function Bookingscreen() {
     // console.log('booking details are', bookingDetails)
 
     try {
-      const result = await axios.post('http://localhost:1300/api/bookings/bookroom', bookingDetails);
+      const result = await axios.post('http://server-hotel-azure.vercel.app/api/bookings/bookroom', bookingDetails);
       toast.success(result.data);
       // console.log('result is', result)
     } catch (error) {
