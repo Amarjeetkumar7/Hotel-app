@@ -27,7 +27,7 @@ function Loginscreen() {
     // }
 
     try {
-      const res = await axios.post('http://localhost:1300/api/users/login', user);
+      const res = await axios.post('http://server-hotel-azure.vercel.app/api/users/login', user);
       console.log('response is', res)
 
       if (!res.data?.message) {
