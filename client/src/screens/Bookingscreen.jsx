@@ -37,7 +37,7 @@ function Bookingscreen() {
     // debugger;
     // console.log('room id is', id)
     try {
-      const res = await axios.post(`http://server-hotel-azure.vercel.app/api/rooms/getroombyid/${id}`);
+      const res = await axios.post(`https://server-hotel-xgba.onrender.com/api/rooms/getroombyid/${id}`);
 
       console.log('data is', res.data);
       setRoom(res.data)
