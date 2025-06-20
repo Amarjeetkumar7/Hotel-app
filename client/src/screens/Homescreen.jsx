@@ -22,7 +22,7 @@ function Homescreen() {
 
     try {
       setLoading(true);
-      const res = await axios.get('http://server-hotel-azure.vercel.app/api/rooms/getallrooms');
+      const res = await axios.get('https://server-hotel-xgba.onrender.com/api/rooms/getallrooms');
       // console.log('data is', res.data);
       setRooms(res.data)
       setDuplicaterooms(res.data)
