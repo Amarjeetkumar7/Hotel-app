@@ -21,7 +21,7 @@ function Registerscreen() {
   const handleRegister = async () => {
     if (user.password === user.cpassword) {
       try {
-        const res = await axios.post('http://server-hotel-azure.vercel.app/api/users/register', user);
+        const res = await axios.post('https://server-hotel-xgba.onrender.com/api/users/register', user);
         setUser({
           name: "",
           email: "",
